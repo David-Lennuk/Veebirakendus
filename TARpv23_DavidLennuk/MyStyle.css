@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+}
+
+header{
+    color: black; /*teksti värv*/
+    background-color: #fdfdfd; /*tausta värv*/
+    width: 97.5%; /*lauis*/
+    text-align : center;
+    border: solid 1pt Black; /*piir - solid, dashed, dotted, double*/
+    border-radius: 0px 0px 0px 0px;
+    padding: 2%;
+    background-image: url("Nimetu.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: auto;
+}
+main section {
+    background-color: BurlyWood;
+    border: double 3pt #ffffff;
+    margin:5px;
+    width: 40%;
+    padding: 1%;
+}
+main section h2{
+    color: BurlyWood;
+    font-variant: small-caps; /*normal*/
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*kuidas näidata nav elementid*/
+    background-color: #e5bba7;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: flex;
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*underline - none*/
+}
+
+nav li a:hover { /*link fookuses*/
+    background-color: BurlyWood;
+}
+footer{
+    color: black; /*teksti värv*/
+    background-color: #ffffff; /*tausta värv*/
+    width: 97.5%; /*lauis*/
+    text-align : left;
+    border: none; /*piir - solid, dashed, dotted, double*/
+    border-radius: 0px 0px 0px 0px;
+    padding: 1%;
+}
